@@ -1,0 +1,3 @@
+# https://github.com/bloomberg/pystack
+
+Inspect the stack of a running python process. Even prints out local variables.
