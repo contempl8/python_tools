@@ -1,7 +1,9 @@
 # Rich-Codex
 
 Check at each new commit:
+
 Create a directory named codex_img.
+
 Create .githooks dir in repo w/ a file named pre-commit containing:
 
 ```
@@ -70,11 +72,13 @@ git_hooks:
 
 In the README.md for your repo you can change the following template lines to fit your needs:
 
+```
 <!-- RICH-CODEX
 hide_command: true
 terminal_width: 60
 terminal_theme: SVG_EXPORT_THEME
 -->
 ![`rich repo_directory/some_other_directory/file_to_check_4_changes.json --force-terminal --guides --panel rounded --panel-style blue`](codex_img/file_to_check_4_changes.svg)
+```
 
 This will create an image in your README.md that rich will create and can update whenever a commit is made.
